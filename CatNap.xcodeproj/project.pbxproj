@@ -23,6 +23,8 @@
 		C9D6C5651F97AEB300499D12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D6C5631F97AEB300499D12 /* Main.storyboard */; };
 		C9D6C5671F97AEB300499D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D6C5661F97AEB300499D12 /* Assets.xcassets */; };
 		C9D6C56A1F97AEB300499D12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D6C5681F97AEB300499D12 /* LaunchScreen.storyboard */; };
+		C9E4553A1F9A592500837512 /* BedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E455391F9A592500837512 /* BedNode.swift */; };
+		C9E4553C1F9A5B1100837512 /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4553B1F9A5B1100837512 /* CatNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		C9D6C5741F97B01600499D12 /* mrreow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mrreow.mp3; sourceTree = "<group>"; };
 		C9D6C5751F97B01600499D12 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 		C9D6C5761F97B01600499D12 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		C9E455391F9A592500837512 /* BedNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedNode.swift; sourceTree = "<group>"; };
+		C9E4553B1F9A5B1100837512 /* CatNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			children = (
 				C9C48A7C1F97D9AB00AE9C4C /* Scenes */,
 				C9D6C5591F97AEB300499D12 /* AppDelegate.swift */,
+				C9E455391F9A592500837512 /* BedNode.swift */,
+				C9E4553B1F9A5B1100837512 /* CatNode.swift */,
 				C9D6C55D1F97AEB300499D12 /* Actions.sks */,
 				C9D6C55F1F97AEB300499D12 /* GameScene.swift */,
 				C9D6C5611F97AEB300499D12 /* GameViewController.swift */,
@@ -196,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D6C5601F97AEB300499D12 /* GameScene.swift in Sources */,
+				C9E4553C1F9A5B1100837512 /* CatNode.swift in Sources */,
+				C9E4553A1F9A592500837512 /* BedNode.swift in Sources */,
 				C9D6C5621F97AEB300499D12 /* GameViewController.swift in Sources */,
 				C9D6C55A1F97AEB300499D12 /* AppDelegate.swift in Sources */,
 			);
