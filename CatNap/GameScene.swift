@@ -55,6 +55,20 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         inGameMessage(text: "Try again...")
         
         run(SKAction.afterDelay(5, runBlock: newGame))
+        catNode.wakeUp()
+    }
+    
+    func win() {
+        playable = false
+        SKTAudio.sharedInstance().pauseBackgroundMusic()
+        SKTAudio.sharedInstance().playSoundEffect("win.mp3")
+        
+        inGameMessage(text: "Nice job!")
+        
+        run(SKAction.afterDelay(3, runBlock: newGame))
+        catNode.curlAt(scenePoint: bedNode.position)
+      
+        
     }
     
     func didBegin(_ contact: SKPhysicsContact) {
@@ -66,6 +80,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         if collision == PhysicsCategory.Cat | PhysicsCategory.Bed   {
             print("Success")
+            win()
         } else if collision == PhysicsCategory.Cat | PhysicsCategory.Edge {
             print("Fail")
             lose()
@@ -100,6 +115,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         physicsBody = SKPhysicsBody(edgeLoopFrom: playableRect)
         physicsWorld.contactDelegate = self
         physicsBody!.categoryBitMask = PhysicsCategory.Edge
-       // SKTAudio.sharedInstance().playBackgroundMusic("backgroundMusic.mp3")
+        SKTAudio.sharedInstance().playBackgroundMusic("backgroundMusic.mp3")
     }
 }
