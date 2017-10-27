@@ -22,10 +22,21 @@ class MessageNode: SKLabelNode {
         front.fontSize = 256.0
         front.fontColor = SKColor.white
         front.position = CGPoint(x: -2, y: -2)
+        addChild(front)
+        
         physicsBody = SKPhysicsBody(circleOfRadius: 10)
         physicsBody!.collisionBitMask = PhysicsCategory.Edge
         physicsBody!.categoryBitMask = PhysicsCategory.Label
+        physicsBody!.contactTestBitMask = PhysicsCategory.Edge
         physicsBody!.restitution = 0.7
-        addChild(front)
+    }
+    
+    private var bounceCount = 0
+    
+    func didBounce() {
+        bounceCount += 1
+        if bounceCount >= 4 {
+            removeFromParent()
+        }
     }
 }
