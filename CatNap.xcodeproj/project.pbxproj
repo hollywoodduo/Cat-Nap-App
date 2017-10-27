@@ -42,6 +42,16 @@
 		C9E4553C1F9A5B1100837512 /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4553B1F9A5B1100837512 /* CatNode.swift */; };
 		C9EF05E61F9E6EE200B3507D /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF05E51F9E6EE200B3507D /* BlockNode.swift */; };
 		C9EF05E81F9E734F00B3507D /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF05E71F9E734F00B3507D /* MessageNode.swift */; };
+		C9F5B7EF1FA380950002CDBC /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9F5B7EE1FA380950002CDBC /* Level3.sks */; };
+		C9F5B7F11FA3A6F10002CDBC /* StoneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F5B7F01FA3A6F10002CDBC /* StoneNode.swift */; };
+		C9F5B7F31FA3AC050002CDBC /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9F5B7F21FA3AC050002CDBC /* Level4.sks */; };
+		C9F5B7FD1FA3B0220002CDBC /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9F5B7FB1FA3B01C0002CDBC /* Level5.sks */; };
+		C9F5B7FE1FA3B0250002CDBC /* Level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9F5B7FC1FA3B01C0002CDBC /* Level6.sks */; };
+		C9F5B8031FA3B1CF0002CDBC /* PictureNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F5B8021FA3B1CF0002CDBC /* PictureNode.swift */; };
+		C9F5B8051FA3B79E0002CDBC /* DiscoBallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F5B8041FA3B79E0002CDBC /* DiscoBallNode.swift */; };
+		C9F5B8061FA3B9780002CDBC /* disco-sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C9F5B8001FA3B1890002CDBC /* disco-sound.m4a */; };
+		C9F5B8071FA3B97B0002CDBC /* discolights-loop.mov in Resources */ = {isa = PBXBuildFile; fileRef = C9F5B8011FA3B1890002CDBC /* discolights-loop.mov */; };
+		C9F5B8091FA3C0920002CDBC /* HintNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F5B8081FA3C0920002CDBC /* HintNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +92,22 @@
 		C9E4553B1F9A5B1100837512 /* CatNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
 		C9EF05E51F9E6EE200B3507D /* BlockNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
 		C9EF05E71F9E734F00B3507D /* MessageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageNode.swift; sourceTree = "<group>"; };
+		C9F5B7EE1FA380950002CDBC /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
+		C9F5B7F01FA3A6F10002CDBC /* StoneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneNode.swift; sourceTree = "<group>"; };
+		C9F5B7F21FA3AC050002CDBC /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
+		C9F5B7F51FA3AFCF0002CDBC /* discoball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discoball1.png; sourceTree = "<group>"; };
+		C9F5B7F61FA3AFCF0002CDBC /* discoball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discoball2.png; sourceTree = "<group>"; };
+		C9F5B7F71FA3AFCF0002CDBC /* discoball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discoball3.png; sourceTree = "<group>"; };
+		C9F5B7F81FA3AFCF0002CDBC /* iron_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iron_square.png; sourceTree = "<group>"; };
+		C9F5B7F91FA3AFCF0002CDBC /* iron_vert2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iron_vert2.png; sourceTree = "<group>"; };
+		C9F5B7FA1FA3AFCF0002CDBC /* wood_tinted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_tinted.png; sourceTree = "<group>"; };
+		C9F5B7FB1FA3B01C0002CDBC /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
+		C9F5B7FC1FA3B01C0002CDBC /* Level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level6.sks; sourceTree = "<group>"; };
+		C9F5B8001FA3B1890002CDBC /* disco-sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "disco-sound.m4a"; sourceTree = "<group>"; };
+		C9F5B8011FA3B1890002CDBC /* discolights-loop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "discolights-loop.mov"; sourceTree = "<group>"; };
+		C9F5B8021FA3B1CF0002CDBC /* PictureNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureNode.swift; sourceTree = "<group>"; };
+		C9F5B8041FA3B79E0002CDBC /* DiscoBallNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiscoBallNode.swift; path = CatNap/Nodes/DiscoBallNode.swift; sourceTree = SOURCE_ROOT; };
+		C9F5B8081FA3C0920002CDBC /* HintNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HintNode.swift; path = CatNap/Nodes/HintNode.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +124,15 @@
 		C9B81C891F9A82510059A25E /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				C9F5B8041FA3B79E0002CDBC /* DiscoBallNode.swift */,
+				C9F5B8021FA3B1CF0002CDBC /* PictureNode.swift */,
 				C967CD491FA2524C00C44860 /* HookBaseNode.swift */,
 				C9EF05E71F9E734F00B3507D /* MessageNode.swift */,
 				C9EF05E51F9E6EE200B3507D /* BlockNode.swift */,
 				C9E4553B1F9A5B1100837512 /* CatNode.swift */,
 				C9E455391F9A592500837512 /* BedNode.swift */,
 				C95D19B11FA1073000F1541F /* SpringNode.swift */,
+				C9F5B7F01FA3A6F10002CDBC /* StoneNode.swift */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -132,6 +161,11 @@
 			children = (
 				C9D6C55B1F97AEB300499D12 /* Level1.sks */,
 				C95D19AF1FA105ED00F1541F /* Level2.sks */,
+				C9F5B7EE1FA380950002CDBC /* Level3.sks */,
+				C9F5B7F21FA3AC050002CDBC /* Level4.sks */,
+				C9F5B7FB1FA3B01C0002CDBC /* Level5.sks */,
+				C9F5B7FC1FA3B01C0002CDBC /* Level6.sks */,
+				C9F5B8081FA3C0920002CDBC /* HintNode.swift */,
 				C9C957E81F99173E003A6392 /* CatCurl.sks */,
 				C9C957EA1F99175E003A6392 /* CatWakeUp.sks */,
 				C9C48A7D1F97DA1700AE9C4C /* Cat.sks */,
@@ -159,6 +193,8 @@
 		C9D6C5581F97AEB300499D12 /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				C9F5B7FF1FA3B1890002CDBC /* media */,
+				C9F5B7F41FA3AFCF0002CDBC /* textures */,
 				C9B81C8A1F9A87BD0059A25E /* SKTUtils */,
 				C9C48A7C1F97D9AB00AE9C4C /* Scenes */,
 				C9D6C5591F97AEB300499D12 /* AppDelegate.swift */,
@@ -184,6 +220,28 @@
 				C9D6C5761F97B01600499D12 /* win.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C9F5B7F41FA3AFCF0002CDBC /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				C9F5B7F51FA3AFCF0002CDBC /* discoball1.png */,
+				C9F5B7F61FA3AFCF0002CDBC /* discoball2.png */,
+				C9F5B7F71FA3AFCF0002CDBC /* discoball3.png */,
+				C9F5B7F81FA3AFCF0002CDBC /* iron_square.png */,
+				C9F5B7F91FA3AFCF0002CDBC /* iron_vert2.png */,
+				C9F5B7FA1FA3AFCF0002CDBC /* wood_tinted.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		C9F5B7FF1FA3B1890002CDBC /* media */ = {
+			isa = PBXGroup;
+			children = (
+				C9F5B8001FA3B1890002CDBC /* disco-sound.m4a */,
+				C9F5B8011FA3B1890002CDBC /* discolights-loop.mov */,
+			);
+			path = media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,14 +304,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C48A7E1F97DA1700AE9C4C /* Cat.sks in Resources */,
+				C9F5B8061FA3B9780002CDBC /* disco-sound.m4a in Resources */,
 				C9C957E71F99161A003A6392 /* win.mp3 in Resources */,
 				C9C957E41F991611003A6392 /* lose.mp3 in Resources */,
 				C9C957E31F99160E003A6392 /* backgroundMusic.mp3 in Resources */,
 				C9C957EB1F99175E003A6392 /* CatWakeUp.sks in Resources */,
+				C9F5B7F31FA3AC050002CDBC /* Level4.sks in Resources */,
+				C9F5B7FD1FA3B0220002CDBC /* Level5.sks in Resources */,
+				C9F5B8071FA3B97B0002CDBC /* discolights-loop.mov in Resources */,
 				C95D19B01FA105ED00F1541F /* Level2.sks in Resources */,
 				C9C957E91F99173E003A6392 /* CatCurl.sks in Resources */,
+				C9F5B7FE1FA3B0250002CDBC /* Level6.sks in Resources */,
 				C9D6C5651F97AEB300499D12 /* Main.storyboard in Resources */,
 				C9C957E61F991618003A6392 /* pop.mp3 in Resources */,
+				C9F5B7EF1FA380950002CDBC /* Level3.sks in Resources */,
 				C9C957E51F991614003A6392 /* mrreow.mp3 in Resources */,
 				C9D6C55C1F97AEB300499D12 /* Level1.sks in Resources */,
 				C9D6C5671F97AEB300499D12 /* Assets.xcassets in Resources */,
@@ -272,14 +336,18 @@
 				C9B81C981F9A87CA0059A25E /* CGPoint+Extensions.swift in Sources */,
 				C9EF05E81F9E734F00B3507D /* MessageNode.swift in Sources */,
 				C9B81CA01F9A87E30059A25E /* SKTEffects.swift in Sources */,
+				C9F5B8031FA3B1CF0002CDBC /* PictureNode.swift in Sources */,
 				C9B81C9B1F9A87D30059A25E /* SKAction+Extensions.swift in Sources */,
 				C9D6C5601F97AEB300499D12 /* GameScene.swift in Sources */,
 				C9B81C9E1F9A87DD0059A25E /* SKNode+Extensions.swift in Sources */,
 				C9E4553C1F9A5B1100837512 /* CatNode.swift in Sources */,
+				C9F5B7F11FA3A6F10002CDBC /* StoneNode.swift in Sources */,
+				C9F5B8051FA3B79E0002CDBC /* DiscoBallNode.swift in Sources */,
 				C9B81CA11F9A87E60059A25E /* SKTTimingFunctions.swift in Sources */,
 				C9B81C9C1F9A87D60059A25E /* SKAction+SpecialEffects.swift in Sources */,
 				C9B81C9A1F9A87CF0059A25E /* Int+Extensions.swift in Sources */,
 				C9EF05E61F9E6EE200B3507D /* BlockNode.swift in Sources */,
+				C9F5B8091FA3C0920002CDBC /* HintNode.swift in Sources */,
 				C9B81CA21F9A87E90059A25E /* Vector3.swift in Sources */,
 				C9E4553A1F9A592500837512 /* BedNode.swift in Sources */,
 				C9B81C9D1F9A87DA0059A25E /* SKColor+Extensions.swift in Sources */,
